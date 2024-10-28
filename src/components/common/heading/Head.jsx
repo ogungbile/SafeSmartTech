@@ -6,8 +6,10 @@ const Head = () => {
       <section className='head'>
         <div className='container flexSB'>
           <div className='logo'>
-            <h1>ACADEMIA</h1>
-            <span>ONLINE EDUCATION & LEARNING</span>
+          <div className='img'>
+                      <img src="../../../../public/images/logo.webp" alt=''  style={{width: "70px"}}/>
+                    </div>
+            <span>SMART AI SOLUTIONS</span>
           </div>
 
           <div className='social'>
